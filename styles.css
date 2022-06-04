@@ -1,12 +1,28 @@
 body{
     background-color: #1a131b;
-    padding:75px;
+    padding:40px;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-.container{
+.big-container{
+    display:grid;
+    justify-items: center;
+    grid-gap: 40px;
+}
+
+.start-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    background-color: #c2b7c2;
+    border-radius: 3px;
+}
+
+.tile-container{
     display: grid;
     height: 408px;
     width: 408px;
