@@ -19,7 +19,23 @@ body{
     height: 50px;
     width: 150px;
     background-color: #c2b7c2;
-    border-radius: 3px;
+    border: 0px;
+    border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tile-container{
+    display: grid;
+    height: 408px;
+    width: 408px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+button:hover, button:active {
+    color: #EBF5FF;
+    background-color: #6C526F;
+    cursor: pointer;
 }
 
 .tile-container{
@@ -36,4 +52,8 @@ body{
     background-color: #6C526F;
     width: 100px;
     height: 100px;
+}
+
+.show {
+    background-color: rgb(241, 229, 229);
 }
