@@ -24,14 +24,6 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.tile-container{
-    display: grid;
-    height: 408px;
-    width: 408px;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
-}
-
 button:hover, button:active {
     color: #EBF5FF;
     background-color: #6C526F;
@@ -55,5 +47,5 @@ button:hover, button:active {
 }
 
 .show {
-    background-color: rgb(241, 229, 229);
+    background-color: #EBF5FF;
 }
